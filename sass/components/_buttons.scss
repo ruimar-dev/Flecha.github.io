@@ -1,0 +1,13 @@
+@mixin button(){
+    color:white;
+    background-color: $color_yellow;
+    padding: 14px 39px;
+    width: max-content;
+    text-decoration: none;
+    font-family: $font_space;
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $color_yellow;
+        color: $color_yellow;
+    }
+}

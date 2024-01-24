@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    @include breakpoint(tablet){
+        justify-content: space-around;
+    } 
+    &__nav{
+        display: none;
+        @include breakpoint(tablet){
+            display: flex;
+            gap: 24px;
+            a{
+                text-decoration: none;
+                color: $color_gray;
+                font-family: $font_space;
+            }
+        } 
+    }
+    &__button{
+        @include button;
+        display: none;  
+        @include breakpoint(tablet){
+            display: block;
+        } 
+    }
+}

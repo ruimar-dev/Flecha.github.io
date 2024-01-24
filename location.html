@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+
+  
+  <title>Frontend Mentor | Scoot</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <img src="img/logo.svg" alt="">
+        <nav class="header__nav">
+            <a href="about.html" class="header__link">About</a>
+            <a href="location.html" class="header__link">Location</a>
+            <a href="careers.html" class="header__link">Careers</a>
+        </nav>
+        <a class="header__button " href="">Get Scootin</a>
+    </header>
+<main>
+  <section class="intro text photo">
+    <h1>Locations</h1>
+  </section>
+  <img id="map" src="img/images/world-map-mobile.png" alt="">
+  <section class="locations">
+
+    <ul class="city-list">
+      <li>New York</li>
+      <li>London</li>
+      <li>Yokohama</li>
+      <li>Jakarta</li>
+    </ul>
+    <div class="location__content">
+        <h2>Your city not listed?</h2>
+
+        <p>If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
+
+        <a href="#">Message Us</a>
+    </div>
+  </section>
+</main>
+  <footer>
+    <section class="signup">
+        <div class="signup__content">
+            <h2 class="signup__title">Sign up and Scoot off today</h2>
+            <nav>
+                <a href=""><img src="img/icons/app-store.svg" alt=""></a>
+                <a href=""><img src="img/icons/google-play.svg" alt=""></a>
+            </nav>
+        </div>
+        <div class="footer__links">
+            <img src="img/logowhite.svg" alt="">
+            <nav class="signup__nav">
+                <a href="about.html" class="signup__link">About</a>
+                <a href="location.html" class="signup__link">Location</a>
+                <a href="careers.html" class="signup__link">Careers</a>
+            </nav>
+            <nav>
+                <a href="#" class="signup__link"><img src="img/icons/facebook.svg" alt=""></a>
+                <a href="#" class="signup__link"><img src="img/icons/twitter.svg" alt=""></a>
+                <a href="#" class="signup__link"><img src="img/icons/instagram.svg" alt=""></a>
+            </nav>
+        </div>
+    </section>
+</footer>
+</div>
+<script type="module" src="/main.js"></script>
+<script>
+  // Verificar si la pantalla es de una tablet
+  if (window.innerWidth >= 768) {  // Puedes ajustar este valor según tus necesidades
+      // Cambiar el src de la imagen
+      document.getElementById('map').src = 'img/images/world-map-tablet.png';
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+footer{
+    .signup{
+        &__content{
+            padding-top: 80px;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: 80px;
+            background-color: $color_black;
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+            align-items: center;
+            justify-content: center;
+            text-align: center; 
+            @include breakpoint(tablet){
+                background: url(../../img/patterns/semi-circles.svg) $color_black no-repeat bottom;
+            }
+            @include breakpoint(desktopxl){
+                background: url(../../img/patterns/semi-circles.svg) $color_black no-repeat bottom left 157%;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            
+        }
+        &__title{
+            font-family: $font_space;
+            font-size: 25px;
+            color:white;
+            @include breakpoint(tablet){
+                font-size: 30px;
+                max-width: 283px;
+            }
+        } 
+        nav{
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            align-items: center;
+        }
+        &__nav{
+            display: flex;
+            flex-direction: column;
+            font-family: $font_space;
+            @include breakpoint(tablet){
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            a{
+                color:$color_gray;
+                text-decoration: none;
+            }
+        }   
+        
+    }
+    .footer__links{
+        display: flex;
+        flex-direction: column;
+        background-color:$color_darkblack;
+        align-items: center;
+        gap:60px;
+        padding-bottom: 85px;
+        padding-top: 64px;
+        @include breakpoint(tablet){
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}
