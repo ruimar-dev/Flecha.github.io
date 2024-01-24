@@ -19,12 +19,12 @@ footer .signup__content {
 }
 @media (min-width: 768px) {
   footer .signup__content {
-    background: url(../../img/patterns/semi-circles.svg) #495567 no-repeat bottom;
+    background: url(../img/patterns/semi-circles.svg) #495567 no-repeat bottom;
   }
 }
 @media (min-width: 1440px) {
   footer .signup__content {
-    background: url(../../img/patterns/semi-circles.svg) #495567 no-repeat bottom left 157%;
+    background: url(../img/patterns/semi-circles.svg) #495567 no-repeat bottom left 157%;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -134,7 +134,7 @@ main {
   margin-bottom: 100px;
 }
 main .intro {
-  background: url(../../img/patterns/flecharecta.svg) no-repeat, url(../../img/images/home-hero-mobile.jpg) no-repeat;
+  background: url(../img/patterns/flecharecta.svg) no-repeat, url(../img/images/home-hero-mobile.jpg) no-repeat;
   background-size: auto, 100%;
   background-position: left bottom 5%, center;
   color: white;
@@ -151,14 +151,14 @@ main .intro {
 }
 @media (min-width: 768px) {
   main .intro {
-    background: url(../../img/patterns/right-arrow.svg) no-repeat, url(../../img/patterns/white-circles.svg) no-repeat, url(../../img/images/home-hero-tablet.jpg) no-repeat;
+    background: url(../img/patterns/right-arrow.svg) no-repeat, url(../img/patterns/white-circles.svg) no-repeat, url(../img/images/home-hero-tablet.jpg) no-repeat;
     background-size: 50%, 30%, 100%;
     background-position: left -20% bottom 5%, left 106% bottom 5%, center;
   }
 }
 @media (min-width: 1440px) {
   main .intro {
-    background: url(../../img/patterns/right-arrow.svg) no-repeat, url(../../img/patterns/white-circles.svg) no-repeat, url(../../img/patterns/line.svg) no-repeat, url(../../img/images/home-hero-desktop.jpg) no-repeat;
+    background: url(../img/patterns/right-arrow.svg) no-repeat, url(../img/patterns/white-circles.svg) no-repeat, url(../img/patterns/line.svg) no-repeat, url(../img/images/home-hero-desktop.jpg) no-repeat;
     background-size: 30%, 20%, 20%, 100%;
     background-position: left 75% bottom 27%, left 106% bottom 25%, left bottom 43%, center;
   }
@@ -238,7 +238,7 @@ main .intro h1 {
 }
 @media (min-width: 768px) {
   main .intro::after {
-    content: url(../../img/patterns/linea.svg);
+    content: url(../img/patterns/linea.svg);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -249,7 +249,7 @@ main .intro h1 {
 }
 @media (min-width: 1440px) {
   main .intro::after {
-    content: url(../../img/patterns/linea_horizonte.svg);
+    content: url(../img/patterns/linea_horizonte.svg);
     position: absolute;
     width: -moz-max-content;
     width: max-content;
@@ -266,21 +266,21 @@ main .intro h1 {
   }
 }
 main .text {
-  background: url(../../img/images/about-hero-mobile.jpg) no-repeat;
+  background: url(../img/images/about-hero-mobile.jpg) no-repeat;
   margin-bottom: 100px;
   padding-bottom: 100px;
   background-size: cover;
 }
 @media (min-width: 768px) {
   main .text {
-    background: url(../../img/images/about-hero-tablet.jpg) no-repeat;
+    background: url(../img/images/about-hero-tablet.jpg) no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     background-size: cover;
   }
   main .text::after {
-    content: url(../../img/patterns/white-circles.svg);
+    content: url(../img/patterns/white-circles.svg);
     position: absolute;
     width: -moz-max-content;
     width: max-content;
@@ -293,7 +293,7 @@ main .text {
 }
 @media (min-width: 1440px) {
   main .text {
-    background: url(../../img/images/about-hero-desktop.jpg) no-repeat;
+    background: url(../img/images/about-hero-desktop.jpg) no-repeat;
     margin-bottom: 100px;
     padding-bottom: 100px;
     background-size: cover;
@@ -384,7 +384,7 @@ main .many {
 }
 @media (min-width: 768px) {
   main .many::after {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -29%;
@@ -398,7 +398,7 @@ main .many {
     gap: 300px;
   }
   main .many::after {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -34%;
@@ -493,7 +493,7 @@ main .about .flecha {
   position: relative;
 }
 main .about .flecha::after {
-  content: url(../../img/patterns/right-arrow.svg);
+  content: url(../img/patterns/right-arrow.svg);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -503,7 +503,7 @@ main .about .flecha::after {
 }
 @media (min-width: 768px) {
   main .about .flecha::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     left: -50%;
@@ -516,7 +516,7 @@ main .about .flecha::after {
     justify-content: space-around;
   }
   main .about .flecha::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     left: -27%;
@@ -537,7 +537,7 @@ main .about div {
   position: relative;
 }
 main .about div::after {
-  content: url(../../img/patterns/left-upward-arrow.svg);
+  content: url(../img/patterns/left-upward-arrow.svg);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -547,7 +547,7 @@ main .about div::after {
 }
 @media (min-width: 768px) {
   main .about div::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -49%;
@@ -757,19 +757,19 @@ main .faqs .faq__answer {
   }
 }
 main .photo {
-  background: url(../../img/images/careers-location-hero-mobile.jpg) no-repeat;
+  background: url(../img/images/careers-location-hero-mobile.jpg) no-repeat;
   margin-bottom: 50px;
   padding-bottom: 100px;
   background-size: cover;
 }
 @media (min-width: 768px) {
   main .photo {
-    background: url(../../img/images/careers-locations-hero-tablet.jpg) no-repeat center;
+    background: url(../img/images/careers-locations-hero-tablet.jpg) no-repeat center;
   }
 }
 @media (min-width: 1440px) {
   main .photo {
-    background: url(../../img/images/careers-locations-hero-desktop.jpg) no-repeat center;
+    background: url(../img/images/careers-locations-hero-desktop.jpg) no-repeat center;
     margin-bottom: 100px;
     padding-bottom: 100px;
     background-size: cover;
@@ -799,7 +799,7 @@ main .careers__container {
   position: relative;
 }
 main .careers__container::after {
-  content: url(../../img/patterns/left-downward-arrow.svg);
+  content: url(../img/patterns/left-downward-arrow.svg);
   position: absolute;
   width: 100%;
   height: -moz-max-content;
@@ -823,7 +823,7 @@ main .careers__container::after {
 }
 @media (min-width: 768px) {
   main .careers__container::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -50%;
@@ -837,7 +837,7 @@ main .careers__container::after {
     justify-content: space-around;
   }
   main .careers__container::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -27%;
@@ -1095,7 +1095,7 @@ main .telemetry {
   position: relative;
 }
 main .telemetry::after {
-  content: url(../../img/patterns/left-downward-arrow.svg);
+  content: url(../img/patterns/left-downward-arrow.svg);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1105,7 +1105,7 @@ main .telemetry::after {
 }
 @media (min-width: 1440px) {
   main .telemetry::after {
-    content: url(../../img/patterns/left-downward-arrow.svg);
+    content: url(../img/patterns/left-downward-arrow.svg);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1118,7 +1118,7 @@ main .payments {
   position: relative;
 }
 main .payments::after {
-  content: url(../../img/patterns/left-downward-arrow.svg);
+  content: url(../img/patterns/left-downward-arrow.svg);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1128,7 +1128,7 @@ main .payments::after {
 }
 @media (min-width: 1440px) {
   main .payments::after {
-    content: url(../../img/patterns/left-downward-arrow.svg);
+    content: url(../img/patterns/left-downward-arrow.svg);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1139,7 +1139,7 @@ main .payments::after {
 }
 @media (min-width: 768px) {
   main .payments::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -108%;
@@ -1148,7 +1148,7 @@ main .payments::after {
 }
 @media (min-width: 1440px) {
   main .payments::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -25%;
@@ -1160,7 +1160,7 @@ main .cities {
 }
 @media (min-width: 768px) {
   main .cities::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     left: -108%;
@@ -1169,7 +1169,7 @@ main .cities {
 }
 @media (min-width: 1440px) {
   main .cities::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     left: -26%;
@@ -1177,7 +1177,7 @@ main .cities {
   }
 }
 main .cities::after {
-  content: url(../../img/patterns/right-arrow.svg);
+  content: url(../img/patterns/right-arrow.svg);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1206,7 +1206,7 @@ main .flex {
   }
 }
 main #flecha::after {
-  content: url(../../img/patterns/left-upward-arrow.svg);
+  content: url(../img/patterns/left-upward-arrow.svg);
   position: absolute;
   width: -moz-max-content;
   width: max-content;
@@ -1224,7 +1224,7 @@ main #flecha::after {
 }
 @media (min-width: 1440px) {
   main #flecha::before {
-    content: url(../../img/patterns/circle.svg);
+    content: url(../img/patterns/circle.svg);
     display: inline-block;
     position: absolute;
     right: -27%;
